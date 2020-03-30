@@ -1,0 +1,7 @@
+name: modern-cpp
+channels:
+  - QuantStack
+  - conda-forge
+dependencies:
+  - xeus-cling
+  - notebook
