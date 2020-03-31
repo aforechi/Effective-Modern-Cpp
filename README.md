@@ -5,4 +5,4 @@ This repository contains code samples found in Effective Modern C++ book by Scot
 
 The goal here is to provide C++ learners with a practical approach to play with the concepts explained in the book, but in an iteractive and online manner.  
 
-You can follow code samples online [here](https://mybinder.org/v2/gh/aforechi/Effective-Modern-Cpp/master?filepath=index.md).
+You can follow code samples online [here](https://mybinder.org/v2/gh/aforechi/Effective-Modern-Cpp/master?filepath=Index.ipynb).
