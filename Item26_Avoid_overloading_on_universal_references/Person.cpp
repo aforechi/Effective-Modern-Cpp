@@ -1,7 +1,10 @@
 /*
  * Key idea:
  *
- *   TODO
+ *   The perfect-forwarding constructor will generally match better than the
+ *   copy constructor, which may produce compilation errors if the passed
+ *   parameter is not of the same type as the member variable initialized.  To
+ *   force on using the copy constructor, you might pass a const lvalue.
  */
 
 #include <iostream>

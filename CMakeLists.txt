@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 2.6)
+cmake_minimum_required(VERSION 2.8.12)
 
 # Note: the 'C' seems necessary for CMake 3.2.2 but might not be necessary with
 # later versions of CMake.
@@ -38,7 +38,7 @@ add_subdirectory(Item08_Prefer_nullptr_to_0_and_NULL)
 add_subdirectory(Item10_Prefer_scoped_enums_to_unscoped_enums)
 add_subdirectory(Item11_Prefer_deleted_functions_to_private_undefined_ones)
 add_subdirectory(Item12_Declare_overriding_functions_override)
-# TODO: comment this out when clang supports it: add_subdirectory(Item13_Prefer_const_iterators_to_iterators)
+add_subdirectory(Item13_Prefer_const_iterators_to_iterators)
 add_subdirectory(Item14_Declare_functions_noexcept_if_they_wont_emit_exceptions)
 add_subdirectory(Item15_Use_constexpr_whenever_possible)
 add_subdirectory(Item16_Make_const_member_functions_thread-safe)
